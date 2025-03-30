@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="alterarDadosMoto.css">
+    <link rel="stylesheet" href="alterarDadosMoto.css?v=<?php echo time(); ?>">
     <title>Alterar dados da Moto</title>
 </head>
 <body>
@@ -50,10 +50,12 @@
         }
         ?>
 
-        <br>    
-        <a href="../index.php">
-            <button type="button">Voltar ao Menu de escolhas</button>
-        </a>
+        <br>
+        <div id="voltar">    
+            <a href="../index.php">
+                <button type="button" class="btn-submit">Voltar ao Menu de escolhas</button>
+            </a>
+        </div>
     </div>
 </body>
 </html>

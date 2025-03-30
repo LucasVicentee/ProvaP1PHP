@@ -5,8 +5,9 @@
 }
 
 body {
+    background: rgb(99,98,122);
+    background: linear-gradient(49deg, rgba(99,98,122,1) 0%, rgba(174,189,199,1) 50%, rgba(255,255,255,1) 100%);
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     color: #333;
     display: flex;
     justify-content: center;
@@ -15,10 +16,10 @@ body {
 }
 
 #escolha {
-    background-color: #afe4df;
+    background-color: rgba(255, 255, 255, 0.0); 
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 400px;
 }
@@ -29,7 +30,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #3498db;
+    color: #0011ff;
     font-size: 18px;
     transition: color 0.3s;
 }
